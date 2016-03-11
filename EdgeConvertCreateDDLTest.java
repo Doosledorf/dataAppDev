@@ -27,10 +27,10 @@ public class EdgeConvertCreateDDLTest extends EdgeConvertCreateDDL{
 		return "GetDatabaseName";
 	}	
 
-	public EdgeConvertCreateDDLTest(EdgeTable[] tables, EdgeField[] fields){
-		super(tables,fields);
+//	public EdgeConvertCreateDDLTest(EdgeTable[] tables, EdgeField[] fields){
+//		super(tables,fields);
      	
-	}		
+		
 	
 	public EdgeConvertCreateDDLTest(){
 		super();
@@ -41,17 +41,54 @@ public class EdgeConvertCreateDDLTest extends EdgeConvertCreateDDL{
 
 	@Before
 	public void setUp() throws Exception{
-		EdgeField[] inputFields = new EdgeField[10];
-		EdgeTable[] inputTables = new EdgeTable[10];
-		testObj = new EdgeConvertCreateDDLTest(inputTables,inputFields);
-//		testObj = new EdgeConvertCreateDDLTest();		
+		EdgeField[] inputFields = new EdgeField[1];
+		EdgeTable[] inputTables = new EdgeTable[1];
+		//EdgeField Ftest = new EdgeField("1|Bob");
+		//EdgeTable Ttest = new EdgeTable("1|2|3");	 
+				
+		//inputFields[0] = Ftest;
+		//inputTables[0] = Ttest;
 
+//		testObj = new EdgeConvertCreateDDLTest(inputTables,inputFields);
+		testObj = new EdgeConvertCreateDDLTest();
+		//testObj.tables = inputTables;
+		//testObj.fields = inputFields;
 	}
 	
-	@Test
+	@Test	
 	public void testInitialize(){
 		System.out.println("testing init");
 		testObj.initialize();
 	}
-	
+	@Test
+	public void testTable(){
+		System.out.println("Checking if tables are null...");
+		assertNotNull("Tables are null",testObj.tables);
+	}
+	@Test
+	public void testField(){
+		System.out.println("Checking if fields are null...");
+		assertNotNull("Fields is null",testObj.fields);
+	}	
+	@Test
+	public void testNumBoundTables(){
+		System.out.println("Checking if numBoundTables is null...");
+		assertNotNull("numBoundTables is null",testObj.numBoundTables);
+	}
+	@Test 
+	public void testMaxBound(){
+		System.out.println("Checking if maxBound is null...");
+		assertNotNull("maxBound is null",testObj.maxBound);
+	}
+	@Test 
+	public void testStringBuffer(){
+		System.out.println("Checking if StringBuffer is null...");
+		assertNotNull("StringBuffer is null",testObj.sb);
+	}
+
+	@Test 
+	public void testSeleceted(){
+		System.out.println("Checking if selected is null");
+		assertNotNull("Selected is null",testObj.selected);
+	}
 }
