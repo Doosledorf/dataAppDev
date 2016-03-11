@@ -1,0 +1,99 @@
+EdgeTableTest:
+
+testGetNumFigure:
+	Check if getNumFigure returns the value "1"
+	
+	Conditions:
+		-EdgeTable was instantiated as("1|Bob")
+	Expected Outcome:
+		-Success
+
+testGetName:
+	Check if getName returns "Bob"
+	
+	Conditions:
+		-EdgeTable was instantiated as("1|Bob")
+	Expected Outcome:
+		-Success
+
+testRelatedFieldArray:
+	Check if relatedFields[0] was set to 12
+
+	
+	Conditions:	
+		-NativeField 123 was added
+		-RelatedTable 12 was added
+		-SetRelatedField(0,12)
+
+	Expected Outcome:
+		-Success
+
+testNativeFieldArray:
+	Check if nativeField could be set to 123 then
+	checked if could be moved around.
+	
+	Conditions:
+		-NativeField[0] was set to 123
+		-NativeField[1] was set to 234
+		-NativeField[1] was moved to NativeField[0]
+	Expected Outcome:
+		-Success
+
+------------------------
+EdgeConvertCreateDDLTest:
+
+testInitialize:
+	Check if testObj can initialize.
+
+	Conditions:
+		-No-args constructor was used.
+
+	Expected Outcome:
+		-Failure
+
+testTable:
+	Check if testObj.tables is not null
+
+	Conditions:
+		-No-args constructor was used.
+
+	Expected Outcome:
+		-Failure
+
+testField:
+	Check if testObj.fields is not null
+
+
+	Conditions:
+		-No-args constructor was used.
+
+	Expected Outcome:
+		-Failure
+	
+testNumBoundTables:
+	Check if testObj.numBoundTables is not null
+
+	Conditions:
+		-No-args constructor was used.
+
+	Expected Outcome:
+		-Failure
+
+testMaxBound:
+	Check if testObj.maxBound is not null
+
+	Conditions:
+		-No-args constructor was used.
+
+	Expected Outcome:
+		-Failure
+
+testSelected:
+	Check if testObj.selected is not null
+
+	Conditions:
+		-No-args constructor was used.
+
+	Expected Outcome:
+		-Failure
+
