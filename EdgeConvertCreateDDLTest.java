@@ -43,16 +43,8 @@ public class EdgeConvertCreateDDLTest extends EdgeConvertCreateDDL{
 	public void setUp() throws Exception{
 		EdgeField[] inputFields = new EdgeField[1];
 		EdgeTable[] inputTables = new EdgeTable[1];
-		//EdgeField Ftest = new EdgeField("1|Bob");
-		//EdgeTable Ttest = new EdgeTable("1|2|3");	 
-				
-		//inputFields[0] = Ftest;
-		//inputTables[0] = Ttest;
-
-//		testObj = new EdgeConvertCreateDDLTest(inputTables,inputFields);
+		
 		testObj = new EdgeConvertCreateDDLTest();
-		//testObj.tables = inputTables;
-		//testObj.fields = inputFields;
 	}
 	
 	@Test	
