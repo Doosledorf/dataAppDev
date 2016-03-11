@@ -29,6 +29,7 @@
       <classpath refid = "classpath.test" />
       <formatter type="brief" usefile="false" />
       <test name="EdgeFieldTest" />
+      <test name="EdgeTableTest" />
     </junit>
   </target>
 </project>
