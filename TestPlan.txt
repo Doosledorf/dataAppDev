@@ -96,4 +96,29 @@ testSelected:
 
 	Expected Outcome:
 		-Failure
+----------------------------------
+EdgeConvertFileParser
 
+testResolveConnectors
+	Conditions:
+		No args used.
+		However a file must be successfully
+		be opened prior. In this case only 
+		an .EDG file.
+	Expected Outcome:
+		Success
+
+testParseEdgeFile
+	Conditions:
+		No args used.
+		However a file must be successfully 
+		be opened prior. In this case only
+		an .EDG file.
+	Expected Outcome:
+		Success
+
+testOpenFile
+	Conditions:
+		A test.xml file
+	Expected Outcome:
+		Failure
