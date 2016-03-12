@@ -1,0 +1,231 @@
+
+clean:
+   [delete] Deleting /home/osboxes/Source Code/test/main/CreateDDLMySQL.class
+   [delete] Deleting /home/osboxes/Source Code/test/main/EdgeConvertCreateDDL.class
+   [delete] Deleting /home/osboxes/Source Code/test/main/EdgeField.class
+   [delete] Deleting /home/osboxes/Source Code/test/main/EdgeTable.class
+
+compile:
+    [javac] /home/osboxes/Source Code/build.xml:23: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 12 source files to /home/osboxes/Source Code/test
+    [javac] [parsing started RegularFileObject[/home/osboxes/Source Code/src/CreateDDLMySQL.java]]
+    [javac] [parsing completed 63ms]
+    [javac] [parsing started RegularFileObject[/home/osboxes/Source Code/src/CreateDDLMySQLTest.java]]
+    [javac] [parsing completed 9ms]
+    [javac] [parsing started RegularFileObject[/home/osboxes/Source Code/src/EdgeConnector.java]]
+    [javac] [parsing completed 8ms]
+    [javac] [parsing started RegularFileObject[/home/osboxes/Source Code/src/EdgeConvertCreateDDL.java]]
+    [javac] [parsing completed 40ms]
+    [javac] [parsing started RegularFileObject[/home/osboxes/Source Code/src/EdgeConvertFileParser.java]]
+    [javac] [parsing completed 117ms]
+    [javac] [parsing started RegularFileObject[/home/osboxes/Source Code/src/EdgeConvertGUI.java]]
+    [javac] [parsing completed 235ms]
+    [javac] [parsing started RegularFileObject[/home/osboxes/Source Code/src/EdgeField.java]]
+    [javac] [parsing completed 7ms]
+    [javac] [parsing started RegularFileObject[/home/osboxes/Source Code/src/EdgeFieldTest.java]]
+    [javac] [parsing completed 3ms]
+    [javac] [parsing started RegularFileObject[/home/osboxes/Source Code/src/EdgeTable.java]]
+    [javac] [parsing completed 8ms]
+    [javac] [parsing started RegularFileObject[/home/osboxes/Source Code/src/EdgeTableTest.java]]
+    [javac] [parsing completed 4ms]
+    [javac] [parsing started RegularFileObject[/home/osboxes/Source Code/src/ExampleFileFilter.java]]
+    [javac] [parsing completed 16ms]
+    [javac] [parsing started RegularFileObject[/home/osboxes/Source Code/src/RunEdgeConvert.java]]
+    [javac] [parsing completed 1ms]
+    [javac] [search path for source files: /home/osboxes/Source Code/src]
+    [javac] [search path for class files: /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar,/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar,/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar,/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar,/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar,/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar,/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar,/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar,/usr/lib/jvm/java-7-openjdk-amd64/jre/classes,/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar,/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar,/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar,/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar,/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar,/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar,/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar,/home/osboxes/Source Code/test,/home/osboxes/Source Code/lib/hamcrest-core-1.3.jar,/home/osboxes/Source Code/lib/junit-4.12.jar,/home/osboxes/Source Code/src,/home/osboxes/Source Code/test/test,/home/osboxes/Source Code/test/main,/usr/share/ant/lib/ant-launcher.jar,/usr/local/junit/junit-4.12.jar,/usr/local/junit/hamcrest-core-1.3.jar,/home/osboxes/Source Code,/usr/share/ant/lib/ant-antlr.jar,/usr/share/ant/lib/ant-jsch.jar,/usr/share/ant/lib/ant-junit.jar,/usr/share/ant/lib/ant-swing.jar,/usr/share/ant/lib/ant-apache-regexp.jar,/usr/share/ant/lib/ant-apache-bsf.jar,/usr/share/ant/lib/ant-commons-logging.jar,/usr/share/ant/lib/ant-apache-oro.jar,/usr/share/ant/lib/ant-apache-xalan2.jar,/usr/share/ant/lib/ant-jdepend.jar,/usr/share/ant/lib/ant-commons-net.jar,/usr/share/ant/lib/ant-apache-resolver.jar,/usr/share/ant/lib/ant-junit4.jar,/usr/share/ant/lib/ant-apache-bcel.jar,/usr/share/ant/lib/ant.jar,/usr/share/ant/lib/ant-jmf.jar,/usr/share/ant/lib/ant-testutil.jar,/usr/share/ant/lib/ant-javamail.jar,/usr/share/ant/lib/ant-apache-log4j.jar,/usr/lib/jvm/java-7-openjdk-amd64/lib/tools.jar]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuffer.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/StringTokenizer.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class)]]
+    [javac] [loading ZipFileIndexFileObject[/home/osboxes/Source Code/lib/junit-4.12.jar(org/junit/Assert.class)]]
+    [javac] [loading ZipFileIndexFileObject[/home/osboxes/Source Code/lib/junit-4.12.jar(org/junit/Before.class)]]
+    [javac] [loading ZipFileIndexFileObject[/home/osboxes/Source Code/lib/junit-4.12.jar(org/junit/Test.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Exception.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/File.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileReader.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedReader.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/IOException.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/filechooser/FileFilter.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/JFileChooser.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Hashtable.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Enumeration.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/event/ActionListener.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/EventListener.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/event/WindowListener.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintWriter.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/JFrame.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/JPanel.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/JButton.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/ButtonGroup.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/JRadioButton.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/JCheckBox.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/JTextField.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/JLabel.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/JScrollPane.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/JList.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/DefaultListModel.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/JMenuBar.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/JMenu.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/JMenuItem.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/event/ActionEvent.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/event/WindowEvent.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/beans/ConstructorProperties.class)]]
+    [javac] [checking main.CreateDDLMySQL]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/CharSequence.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/Serializable.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Comparable.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AbstractStringBuilder.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/JOptionPane.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/JComponent.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/Container.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/Component.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Error.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/HeadlessException.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/UnsupportedOperationException.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/RuntimeException.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Throwable.class)]]
+    [javac] [checking main.EdgeConvertCreateDDL]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/StringBuilder.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/Icon.class)]]
+    [javac] [wrote RegularFileObject[/home/osboxes/Source Code/test/main/CreateDDLMySQL.class]]
+    [javac] [wrote RegularFileObject[/home/osboxes/Source Code/test/main/EdgeConvertCreateDDL.class]]
+    [javac] [checking main.EdgeTable]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Number.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractList.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/AbstractCollection.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/NumberFormatException.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalArgumentException.class)]]
+    [javac] [wrote RegularFileObject[/home/osboxes/Source Code/test/main/EdgeTable.class]]
+    [javac] [checking main.EdgeField]
+    [javac] [wrote RegularFileObject[/home/osboxes/Source Code/test/main/EdgeField.class]]
+    [javac] [checking CreateDDLMySQLTest]
+    [javac] /home/osboxes/Source Code/src/CreateDDLMySQLTest.java:24: error: convertStrBooleanToInt(String) has protected access in CreateDDLMySQL
+    [javac] 		assertEquals("input = 1, should recieve a 1 back",1,testObj.convertStrBooleanToInt("1"));
+    [javac] 		                                                           ^
+    [javac] /home/osboxes/Source Code/src/CreateDDLMySQLTest.java:25: error: convertStrBooleanToInt(String) has protected access in CreateDDLMySQL
+    [javac] 		assertEquals("input = 'Bob', should recieve a 0 back",0,testObj.convertStrBooleanToInt("Bob"));
+    [javac] 		                                                               ^
+    [javac] [checking main.EdgeConnector]
+    [javac] [checking main.EdgeConvertFileParser]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/Reader.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Boolean.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileDescriptor.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/InputStreamReader.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileNotFoundException.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/System.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/PrintStream.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/FilterOutputStream.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStream.class)]]
+    [javac] [checking main.EdgeConvertGUI]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/UIManager.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/LookAndFeel.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/GraphicsConfiguration.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/Frame.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/Window.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/image/ImageObserver.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/MenuContainer.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/accessibility/Accessible.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/WindowConstants.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/RootPaneContainer.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/TransferHandler.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/TransferHandler$HasGetTransferHandler.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/BorderLayout.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/LayoutManager.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/LayoutManager2.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/Action.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/event/KeyEvent.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/AbstractButton.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/PopupMenu.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/ItemSelectable.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/SwingConstants.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/MenuElement.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/GridLayout.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/AbstractListModel.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Vector.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/ListModel.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/event/ListSelectionListener.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/event/ListSelectionEvent.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/JToggleButton.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/javax/swing/text/JTextComponent.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/event/ItemListener.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/event/ItemEvent.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Double.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/net/URI.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/BufferedWriter.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/FileWriter.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/OutputStreamWriter.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/io/Writer.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Constructor.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/AccessibleObject.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/Method.class)]]
+    [javac] /home/osboxes/Source Code/src/EdgeConvertGUI.java:991: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    [javac]                Method getProductName = resultClass.getMethod("getProductName", null);
+    [javac]                                                                                ^
+    [javac]   cast to Class for a varargs call
+    [javac]   cast to Class[] for a non-varargs call and to suppress this warning
+    [javac] /home/osboxes/Source Code/src/EdgeConvertGUI.java:992: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    [javac]                String productName = (String)getProductName.invoke(objOutput, null);
+    [javac]                                                                              ^
+    [javac]   cast to Object for a varargs call
+    [javac]   cast to Object[] for a non-varargs call and to suppress this warning
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/InstantiationException.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ReflectiveOperationException.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/ClassNotFoundException.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/IllegalAccessException.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/NoSuchMethodException.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/reflect/InvocationTargetException.class)]]
+    [javac] /home/osboxes/Source Code/src/EdgeConvertGUI.java:1037: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    [javac]          Method getSQLString = selectedSubclass.getMethod("getSQLString", null);
+    [javac]                                                                           ^
+    [javac]   cast to Class for a varargs call
+    [javac]   cast to Class[] for a non-varargs call and to suppress this warning
+    [javac] /home/osboxes/Source Code/src/EdgeConvertGUI.java:1038: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    [javac]          Method getDatabaseName = selectedSubclass.getMethod("getDatabaseName", null);
+    [javac]                                                                                 ^
+    [javac]   cast to Class for a varargs call
+    [javac]   cast to Class[] for a non-varargs call and to suppress this warning
+    [javac] /home/osboxes/Source Code/src/EdgeConvertGUI.java:1039: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    [javac]          strSQLString = (String)getSQLString.invoke(objSubclasses[selected], null);
+    [javac]                                                                              ^
+    [javac]   cast to Object for a varargs call
+    [javac]   cast to Object[] for a non-varargs call and to suppress this warning
+    [javac] /home/osboxes/Source Code/src/EdgeConvertGUI.java:1040: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    [javac]          databaseName = (String)getDatabaseName.invoke(objSubclasses[selected], null);
+    [javac]                                                                                 ^
+    [javac]   cast to Object for a varargs call
+    [javac]   cast to Object[] for a non-varargs call and to suppress this warning
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/event/ComponentEvent.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/awt/AWTEvent.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/EventObject.class)]]
+    [javac] [checking main.ExampleFileFilter]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Dictionary.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class)]]
+    [javac] [checking EdgeFieldTest]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Byte.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Character.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Short.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Long.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Float.class)]]
+    [javac] [loading ZipFileIndexFileObject[/usr/lib/jvm/java-7-openjdk-amd64/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Void.class)]]
+    [javac] [checking EdgeTableTest]
+    [javac] [checking main.RunEdgeConvert]
+    [javac] [total 8296ms]
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 2 errors
+    [javac] 6 warnings
+
+BUILD FAILED
+/home/osboxes/Source Code/build.xml:23: Compile failed; see the compiler error output for details.
+
+Total time: 12 seconds

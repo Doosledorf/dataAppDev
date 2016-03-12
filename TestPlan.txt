@@ -97,3 +97,221 @@ testSelected:
 	Expected Outcome:
 		-Failure
 
+------------------------
+CreateDDLMySQLTest:
+
+testCreateDDL:
+	Check if testObj can instantiate DDL
+	Check if inputed database name is bob
+	Check if database name is set to bob
+	Check if the product is MySQL
+	Check if the inputed SQLString is correct
+
+	Conditions:
+		-No-args constructor was used.
+
+	Expected Outcome:
+		-Success
+------------------------
+EdgeConnectorTest:
+
+testGetNumConnector:
+	Check if getNumConnector returns the value "1"
+	
+	Conditions:
+		-EdgeConnector was instantiated
+	Expected Outcome:
+		-Success
+
+testGetEndPoint1:
+	Check if getEndPoint1 returns the value “2”
+	
+	Conditions:
+		-EdgeConnector was instantiated
+	Expected Outcome:
+		-Success
+testGetEndPoint2:
+	Check if getEndPoint2 returns the value “3”
+	
+	Conditions:
+		-EdgeConnector was instantiated
+	Expected Outcome:
+		-Success
+testGetEndStyle1:
+	Check if getEndStyle1 returns the value “testStyle1”
+	
+	Conditions:
+		-EdgeConnector was instantiated
+	Expected Outcome:
+		-Success
+testGetEndStyle2:
+	Check if getEndStyle1 returns the value “testStyle2”
+	
+	Conditions:
+		-EdgeConnector was instantiated
+	Expected Outcome:
+		-Success
+testGetIsEP1Field:
+	Check if getIsEP1Field returns the value “false”
+	
+	Conditions:
+		-EdgeConnector was instantiated
+	Expected Outcome:
+		-Success
+testGetIsEP2Field:
+	Check if getIsEP2Field returns the value “false”
+	
+	Conditions:
+		-EdgeConnector was instantiated
+	Expected Outcome:
+		-Success
+testGetIsEP1Table:
+	Check if getIsEP1Table returns the value “false”
+	
+	Conditions:
+		-EdgeConnector was instantiated
+	Expected Outcome:
+		-Success
+testGetIsEP2Table:
+	Check if getIsEP2Table returns the value “false”
+	
+	Conditions:
+		-EdgeConnector was instantiated
+	Expected Outcome:
+		-Success
+testSetIsEP1Field:
+	Check if setIsEP1Field is set to “true”
+	
+	Conditions:
+		-EdgeConnector was instantiated
+	Expected Outcome:
+		-Success
+testSetIsEP2Field:
+	Check if setIsEP2Field is set to “true”
+	
+	Conditions:
+		-EdgeConnector was instantiated
+	Expected Outcome:
+		-Success
+testSetIsEP1Table:
+	Check if setIsEP1Table is set to “true”
+	
+	Conditions:
+		-EdgeConnector was instantiated
+	Expected Outcome:
+		-Success
+testSetIsEP2Table:
+	Check if setIsEP2Table is set to “true”
+	
+	Conditions:
+		-EdgeConnector was instantiated
+	Expected Outcome:
+		-Success
+----------------------------------
+EdgeConvertFileParser
+
+testResolveConnectors
+	Conditions:
+		No args used.
+		However a file must be successfully
+		be opened prior. In this case only 
+		an .EDG file.
+	Expected Outcome:
+		Success
+
+testParseEdgeFile
+	Conditions:
+		No args used.
+		However a file must be successfully 
+		be opened prior. In this case only
+		an .EDG file.
+	Expected Outcome:
+		Success
+
+testOpenFile
+	Conditions:
+		A test.xml file
+	Expected Outcome:
+		Failure
+------------------------
+EdgeFieldTest:
+
+testSetGetTableID:
+	Check if tableID is set to “123”
+	
+	Conditions:
+		-EdgeField was instantiated
+	Expected Outcome:
+		-Success
+
+testGetNumFigure:
+	Check if numFigure is initialized to “1”
+	
+	Conditions:
+		-EdgeField was instantiated
+	Expected Outcome:
+		-Success
+
+testGetName:
+	Check if name is initialized to “Bob”
+	
+	Conditions:
+		-EdgeField was instantiated
+	Expected Outcome:
+		-Success
+
+testSetGetTableBound:
+	Check if tableBound is set to “20”
+	
+	Conditions:
+		-EdgeField was instantiated
+	Expected Outcome:
+		-Success
+
+testSetGetFieldBound:
+	Check if fieldBound is set to “20”
+	
+	Conditions:
+		-EdgeField was instantiated
+	Expected Outcome:
+		-Success
+
+testSetGetDisallowNull:
+	Check if disallowNull is set to “true”
+	
+	Conditions:
+		-EdgeField was instantiated
+	Expected Outcome:
+		-Success
+
+testSetGetIsPrimaryKey:
+	Check if PrimaryKey is set to “true”
+	
+	Conditions:
+		-EdgeField was instantiated
+	Expected Outcome:
+		-Success
+
+testSetGetDefaultValue:
+	Check if defaultValue is set to “Word”
+	
+	Conditions:
+		-EdgeField was instantiated
+	Expected Outcome:
+		-Success
+
+testSetGetVarcharValue:
+	Check if varcharValue is set to “123”
+	
+	Conditions:
+		-EdgeField was instantiated
+	Expected Outcome:
+		-Success
+
+testSetGetDataType:
+	Check if dataType is set to “1”
+	
+	Conditions:
+		-EdgeField was instantiated
+	Expected Outcome:
+		-Success
