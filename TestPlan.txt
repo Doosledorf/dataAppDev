@@ -96,7 +96,10 @@ testSelected:
 
 	Expected Outcome:
 		-Failure
+----------------------------------
+EdgeConvertFileParser
 
+<<<<<<< HEAD
 ------------------------
 CreateDDLMySQLTest:
 
@@ -210,6 +213,8 @@ testSetIsEP2Table:
 ----------------------------------
 EdgeConvertFileParser
 
+=======
+>>>>>>> 6cb509997d9f4150a75bbc7baa76e281edd7a67e
 testResolveConnectors
 	Conditions:
 		No args used.
@@ -233,6 +238,7 @@ testOpenFile
 		A test.xml file
 	Expected Outcome:
 		Failure
+<<<<<<< HEAD
 ------------------------
 EdgeFieldTest:
 
@@ -315,3 +321,5 @@ testSetGetDataType:
 		-EdgeField was instantiated
 	Expected Outcome:
 		-Success
+=======
+>>>>>>> 6cb509997d9f4150a75bbc7baa76e281edd7a67e
