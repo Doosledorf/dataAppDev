@@ -28,8 +28,13 @@
     <junit>
       <classpath refid = "classpath.test" />
       <formatter type="brief" usefile="false" />
-      <test name="EdgeFieldTest" />
-      <test name="EdgeTableTest" />
+	<test name="EdgeFieldTest" />
+	<test name="EdgeTableTest" />
+	<test name="CreateDDLMySQLTest" />
+<!--	<test name="EdgeConvertFileParseTest"  />	
+	<test name="EdgeConvertCreateDDL" />
+	<test name="EdgeConnector" /> -->
+	
     </junit>
   </target>
 </project>
